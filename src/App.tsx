@@ -1,10 +1,16 @@
-//import './App.css';
+import './scss/App.scss';
 import logo from './logo.svg';
 import axios from "axios";
 import { nanoid } from "nanoid";
 import React, { useEffect, useState } from "react";
 import { TodoType } from "./components/Todo";
 import TodoList from "./components/TodoList";
+
+//var sass = require('sass');
+
+//var result = sass.renderSync({
+//  file: 'scss/App.scss'
+//});
 
 function App() {
   const [todoList, setTodoList] = useState<TodoType[]>([]);
