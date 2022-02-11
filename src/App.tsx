@@ -5,12 +5,6 @@ import React, { useEffect, useState } from "react";
 import { TodoType } from "./components/Todo";
 import TodoList from "./components/TodoList";
 
-//var sass = require('sass');
-
-//var result = sass.renderSync({
-//  file: 'scss/App.scss'
-//});
-
 function App() {
   const [todoList, setTodoList] = useState<TodoType[]>([]);
 
